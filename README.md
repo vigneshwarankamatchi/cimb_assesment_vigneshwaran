@@ -61,9 +61,7 @@ Note: My last test results are in the folder (For your reference)
 Pip install -r requirements.txt
 
 
-
-
-TESTS:
+Assessment TESTS:
 
 Web Automation
 
