@@ -2,7 +2,7 @@
 
 ### Overview
 - 'Google Chrome Browser'
-- 'Python 3.4'
+- 'Python 3.11.0'
 - 'Robot Framework'
 - 'ChromeDriver'
 
