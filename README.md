@@ -117,7 +117,7 @@ Note: Navigate to the project Folder path in commamd promt and run using the abo
 
 
 # Note
-
+API Automation using Postman:
 I have also created a collection in Postman for the API testing and you can access the collection using below link
 
 https://red-moon-599797.postman.co/workspace/0ea77130-e9ca-4fbc-acfa-b17292ecb793/collection/7777911-ed636e8a-1e71-4791-8238-fbbe866849df?action=share&creator=7777911
