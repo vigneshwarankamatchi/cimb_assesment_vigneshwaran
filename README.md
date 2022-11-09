@@ -46,7 +46,7 @@ In My machine i am using Chrome version 107.0.5304.88 (Official Build) (64-bit) 
 
 
 
-# Run Command: -->
+# Run Command(Web Automation): -->
 robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/Cimb_Web_Automation_bdd.robot 
 
 Note: Navigate to the project Folder path in commamd promt and run using the above run command 
@@ -110,7 +110,7 @@ Requirement:
 > curl -X GET https://api.todoist.com/rest/v1/projects -H "Authorization: Bearer f3b085e6fa8b41f202e9be0173367cc8f6cc1817"
 
 
-# Run Command: -->
+# Run Command(API Automation): -->
 robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/Cimb_API_Automation.robot 
 
 Note: Navigate to the project Folder path in commamd promt and run using the above run command 
