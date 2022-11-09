@@ -1,0 +1,9 @@
+decorator==4.1.2
+PyYAML==3.12
+robotframework==3.1.2
+robotframework-seleniumlibrary==3.3.1
+robotframework-xvfb==1.2.2
+selenium==3.5.0
+xvfbwrapper==0.2.9
+robotframework-faker==4.2.0
+robotframework-pabot
