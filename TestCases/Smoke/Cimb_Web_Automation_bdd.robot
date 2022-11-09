@@ -5,8 +5,6 @@ Library   DebugLibrary
 #Test Setup	Test Case Setup 	${platform} 	${env}   ${url_sg}
 Test Teardown	Close Browser
 
-# robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/demo_test_1_bdd.robot 
-# robot -d reports -T -i tc01 -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/demo_test_1_bdd.robot
 
 *** Variables ***
 

@@ -6,8 +6,7 @@ Library  RequestsLibrary
 Library  JSONLibrary
 Library  Collections
 
-# robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/demo_test_1_bdd.robot
-# robot -d reports -T -i tc01 -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/demo_test_1_bdd.robot
+
 
 *** Variables ***
 # &{Authorization}       Authorization=Bearer f3b085e6fa8b41f202e9be0173367cc8f6cc1817

@@ -47,7 +47,7 @@ In My machine i am using Chrome version 107.0.5304.88 (Official Build) (64-bit) 
 
 
 # Run Command: -->
-robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/demo_test_1_bdd.robot 
+robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/Cimb_Web_Automation_bdd.robot 
 
 Note: Navigate to the project Folder path in commamd promt and run using the above run command 
 
@@ -113,7 +113,7 @@ Requirement:
 
 
 # Run Command: -->
-robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/demo_test_API.robot 
+robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/Cimb_API_Automation.robot 
 
 Note: Navigate to the project Folder path in commamd promt and run using the above run command 
 
