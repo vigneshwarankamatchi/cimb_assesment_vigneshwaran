@@ -1,12 +1,10 @@
-
+## Overview
+I have used RobotFramework to do this test automation for both Web and API. The required software and installation details are below.  I also created collections in postman tool for API automation.
 ## Installation
-
-### Overview
 - 'Google Chrome Browser'
 - 'Python 3.11.0'
 - 'Robot Framework'
 - 'ChromeDriver'
-
 
 #### Python
 
@@ -23,7 +21,6 @@ To use the PIP you will need to open CMD or Terminal and enter the following com
 ```bash
 $ pip install robotframework
 ```
-
 #### SeleniumLibrary
 
 You will now need to install the Selenium2 library to execute the tests themselves.
@@ -34,6 +31,16 @@ To use the PIP you will need to open CMD or Terminal and enter the following com
 $ pip install robotframework-SeleniumLibrary
 ```
 
+#### JsonLibrary
+
+You will now need to install the Json library to execute the tests themselves.
+
+To use the PIP you will need to open CMD or Terminal and enter the following command:
+
+```bash
+$ pip install robotframework-jsonlibrary
+```
+
 #### ChromeDriver
 
 The ChromeDriver will allow the tests to be executed in the Chrome Browser iteself.
@@ -42,32 +49,24 @@ Download: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 Setup instructions can be found here: https://sites.google.com/a/chromium.org/chromedriver/getting-started
 
-## NOTE 
+### NOTE 
 In My machine I am using Chrome version 107.0.5304.88 (Official Build) (64-bit) and this chromedriver supports this version. If you are using different versions you need to download the respective chromedriver to run
 
+### one click install
+```
+pip install -r requirements.txt
+```
 
+## Execute Automation 
+To run the automation script, extract all the files to a folder and navigate to that folder in Command Prompt and run using the run command 
 
 ## Run Command(Web Automation)
 ```
 robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/Cimb_Web_Automation_bdd.robot 
 ```
+> Note: Extract all the files to the Folder and navigate to that folder path in commamd promt and run using the above run command
 
-> Note: Navigate to the project Folder path in commamd promt and run
-> using the above run command
-
-## Reports 
-
-Reports will be generated in the Report Folder 
-
-> Note: My last test results are in the folder (For your reference)
-
-## one click install
-```
-pip install -r requirements.txt
-```
-
-
-# Run Command(API Automation)
+## Run Command(API Automation)
 ```
 robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/Smoke/Cimb_API_Automation.robot 
 ```
@@ -75,13 +74,19 @@ robot -d reports -T -i smoke -V vars/preprod.yaml -v remote_url:None  TestCases/
 Note: Navigate to the project Folder path in commamd promt and run using the above run command 
 
 
-## Postman Collection
+## Reports 
+
+Reports will be generated in the Report Folder after the execution. Two files with name log.html & report.html will be created with the timestamp (you can get the detailed log in log.html file). 
+
+> Note: My last test results are in the folder (For your reference, also i have attached the screenshot of the reports(SampleReport.png))
+
+## API Automation using Postman
+### Postman Collection
 API Automation using Postman:
+
 I have also created a collection in Postman for the API testing and you can access the collection using below link
 
 https://red-moon-599797.postman.co/workspace/0ea77130-e9ca-4fbc-acfa-b17292ecb793/collection/7777911-ed636e8a-1e71-4791-8238-fbbe866849df?action=share&creator=7777911
-
-
 
 ## Requirement
 
