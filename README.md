@@ -40,6 +40,13 @@ To use the PIP you will need to open CMD or Terminal and enter the following com
 ```bash
 $ pip install robotframework-jsonlibrary
 ```
+### Other libraries to be installed 
+
+```bash
+$ pip install PyYAML
+$ pip install robotframework-requests
+$ pip install robotframework-debuglibrary
+```
 
 #### ChromeDriver
 
